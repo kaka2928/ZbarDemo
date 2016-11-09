@@ -1,0 +1,26 @@
+//
+//  ZbarDemoPrefix.pch
+//  ZbarDemo
+//
+//  Created by caochao on 16/11/9.
+//  Copyright © 2016年 snailCC. All rights reserved.
+//
+
+#ifndef ZbarDemoPrefix_pch
+#define ZbarDemoPrefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PureLayout.h"
+#import "BasicViewController.h"
+#import "UIView+Frame.h"
+#import "Toast+UIView.h"
+#import "BasicView.h"
+#endif
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZbarDemoPrefix_pch */
